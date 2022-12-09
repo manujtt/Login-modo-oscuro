@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color: #161717;
+    color: white
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.buttons{
+    align-self: center;
+    gap: 20px;
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+.google-button {
+    background-color: #1757B4;
+    display: flex;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+.google-button:hover{
+    opacity: 0.7;
+}
+.google-button picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.google-button picture img{
+    width: 75%;
+}
+.google-button span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter-button{
+    background-color: #ddd;
+    display: flex;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.twitter-button:hover{
+    opacity: 0.7;
+}
+.twitter-button picture img{
+    width: 75%;
+}
+.twitter-button picture{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc
+
+}
+.separador span{
+    color: #8b8b8b;
+}
+.name-surname{
+    display: flex;
+    gap: 15px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 700;
+    
+}
+
+.name-surname label input {
+    color: white;
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, border 0.2s box-shadow 0.2s;
+}
+.email label input{
+    color: white;
+    width: 100%;
+    background-color:  #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, border 0.2s box-shadow 0.2s;
+}
+.password label input{
+    color: white;
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, border 0.2s box-shadow 0.2s;
+}
+label input:hover{
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px rgb(218, 67, 238);
+}
+label input:focus{
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px rgba(218, 67, 238, 0.466);
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.chekcbox-label input[type="checkbox"]{
+    transform: scale(1.5);
+    width: 20px;
+}
+.checkbox-label span{
+    font-weight: 400;
+}
+.acepto{
+    background-color: #EA4C89;
+    color: white;
+    font-weight: 500;
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.acepto:hover{
+    opacity: 0.7;
+}
+.acepto{
+    width: 100%;
+}
